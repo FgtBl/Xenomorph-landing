@@ -55,6 +55,7 @@ section {
 .hero-section{
     color: var(--sys-light-on-primary);
     height: 100dvh;
+   // min-height:600px;
     padding-block: 36px;
     grid-template-rows: min-content 1fr;
     background-image: url('https://s3-alpha-sig.figma.com/img/5789/05ac/f6a90cb182a2ace4cb6fbef124c0b2ff?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AEOHSvVWyBotz9TDGaYSgq~nYmi6O7CIKXA34FGOQkI4QP5j1--I-hxpWyuSuyJN~ycWX6B2D6luaBzEQARSdd39KkP3gY29xV-6lVWL9hoPjZISD3XcMUrqSJwkSSewSwUrnPoD6xIBtoheKz7HR6GBg9ugiYPADtU~1SAEjCCsMIwQXlkjkOZljv-Qgj62NRSZqQuxDybqsHizxe9sPo~rjMYOgP79PE2dLOtdyDgZZsUWXPk1EkhzeQPBA7t-qNwoH6ejGtWkahN~hTFmVrlA6pZVteH7atY7j4SJtUBbUPPU8ASlv2jLVZw0x03L993Iys2SmhWVyDbniursGg__');
@@ -100,8 +101,8 @@ section {
         display: grid;
         grid-column: span 6;
         grid-template-rows: repeat(2, min-content);
-        padding-block: 180px;
-        gap: 128px;
+        padding-block: 100px;
+        gap: 100px;
 
         @include window-classes.on-expanded {
             gap: 64px;
